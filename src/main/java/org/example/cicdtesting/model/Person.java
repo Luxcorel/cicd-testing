@@ -11,7 +11,8 @@ public class Person {
   public void doSomething() {
     try {
       System.out.println();
-    } catch (Exception e) {}
+    } catch (Exception e) {
+    }
   }
 
 }
