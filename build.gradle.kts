@@ -11,6 +11,10 @@ java {
 	sourceCompatibility = JavaVersion.VERSION_21
 }
 
+springBoot {
+    mainClass.value("org.example.cicdtesting.Application")
+}
+
 repositories {
 	mavenCentral()
 }
